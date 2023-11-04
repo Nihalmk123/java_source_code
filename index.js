@@ -1,6 +1,3 @@
-const EnterName = (name) => {
-    console.log(`helllo ${name}`)
-}
-
-const printName = EnterName("deeepu")
-console.log(printName)
+// const addAdmin = require("./controller/controller.admin");
+import addAdmin from "./controller/controller.admin.js";
+addAdmin("Deepak", "S", 2221, "M");
